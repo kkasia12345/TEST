@@ -2,5 +2,16 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 2</name>
-    <events />
+    <events>
+        <event-block sid="553452731090273">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="170782528972853" type="System" />
+            </conditions>
+            <actions>
+                <action id="-18" name="Rotate clockwise" sid="799948710270296" type="Sprite">
+                    <param id="0" name="Degrees">4</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
